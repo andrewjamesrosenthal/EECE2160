@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rosenthal.andr/Documents/EECE2160Labs/half_adder/half_adder.bdf
+source_file = 1, C:/Users/rosenthal.andr/Documents/EECE2160Labs/half_adder/db/half_adder.cbx.xml
+design_name = half_adder
+instance = comp, \Carry~output , Carry~output, half_adder, 1
+instance = comp, \Sum~output , Sum~output, half_adder, 1
+instance = comp, \SW[1]~input , SW[1]~input, half_adder, 1
+instance = comp, \SW[0]~input , SW[0]~input, half_adder, 1
+instance = comp, \inst2~0 , inst2~0, half_adder, 1
+instance = comp, \inst5~0 , inst5~0, half_adder, 1

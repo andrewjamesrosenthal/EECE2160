@@ -1,0 +1,74 @@
+$comment
+	File created using the following command:
+		vcd file half_adder.msim.vcd -direction
+$end
+$date
+	Thu Jan 16 10:12:23 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module half_adder_vlg_vec_tst $end
+$var reg 2 ! SW [1:0] $end
+$var wire 1 " Carry $end
+$var wire 1 # Sum $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * Carry~output_o $end
+$var wire 1 + Sum~output_o $end
+$var wire 1 , SW[1]~input_o $end
+$var wire 1 - SW[0]~input_o $end
+$var wire 1 . inst2~0_combout $end
+$var wire 1 / inst5~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+0,
+0-
+0.
+0/
+$end
+#50000
+b1 !
+1-
+1/
+1+
+1#
+#100000
+b11 !
+b10 !
+0-
+1,
+#150000
+b11 !
+1-
+0/
+1.
+1*
+0+
+0#
+1"
+#200000
