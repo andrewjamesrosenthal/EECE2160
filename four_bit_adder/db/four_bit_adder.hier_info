@@ -1,0 +1,137 @@
+|four_bit_adder
+S0 <= full_adder:inst1.s
+B0 => full_adder:inst1.x
+A0 => full_adder:inst1.y
+Cin => full_adder:inst1.z
+S1 <= full_adder:inst.s
+B1 => full_adder:inst.x
+A1 => full_adder:inst.y
+S2 <= full_adder:inst2.s
+B2 => full_adder:inst2.x
+A2 => full_adder:inst2.y
+S3 <= full_adder:inst3.s
+B3 => full_adder:inst3.x
+A3 => full_adder:inst3.y
+Cout <= full_adder:inst3.c
+
+
+|four_bit_adder|full_adder:inst1
+s <= half_adder:inst1.Sum
+x => half_adder:inst.SW[0]
+y => half_adder:inst.SW[1]
+z => half_adder:inst1.SW[1]
+c <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst1|half_adder:inst1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst4.IN0
+SW[0] => inst1.IN0
+SW[0] => inst2.IN0
+SW[1] => inst4.IN1
+SW[1] => inst3.IN1
+SW[1] => inst.IN0
+Sum <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst1|half_adder:inst
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst4.IN0
+SW[0] => inst1.IN0
+SW[0] => inst2.IN0
+SW[1] => inst4.IN1
+SW[1] => inst3.IN1
+SW[1] => inst.IN0
+Sum <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst
+s <= half_adder:inst1.Sum
+x => half_adder:inst.SW[0]
+y => half_adder:inst.SW[1]
+z => half_adder:inst1.SW[1]
+c <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst|half_adder:inst1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst4.IN0
+SW[0] => inst1.IN0
+SW[0] => inst2.IN0
+SW[1] => inst4.IN1
+SW[1] => inst3.IN1
+SW[1] => inst.IN0
+Sum <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst|half_adder:inst
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst4.IN0
+SW[0] => inst1.IN0
+SW[0] => inst2.IN0
+SW[1] => inst4.IN1
+SW[1] => inst3.IN1
+SW[1] => inst.IN0
+Sum <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst2
+s <= half_adder:inst1.Sum
+x => half_adder:inst.SW[0]
+y => half_adder:inst.SW[1]
+z => half_adder:inst1.SW[1]
+c <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst2|half_adder:inst1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst4.IN0
+SW[0] => inst1.IN0
+SW[0] => inst2.IN0
+SW[1] => inst4.IN1
+SW[1] => inst3.IN1
+SW[1] => inst.IN0
+Sum <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst2|half_adder:inst
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst4.IN0
+SW[0] => inst1.IN0
+SW[0] => inst2.IN0
+SW[1] => inst4.IN1
+SW[1] => inst3.IN1
+SW[1] => inst.IN0
+Sum <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst3
+s <= half_adder:inst1.Sum
+x => half_adder:inst.SW[0]
+y => half_adder:inst.SW[1]
+z => half_adder:inst1.SW[1]
+c <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst3|half_adder:inst1
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst4.IN0
+SW[0] => inst1.IN0
+SW[0] => inst2.IN0
+SW[1] => inst4.IN1
+SW[1] => inst3.IN1
+SW[1] => inst.IN0
+Sum <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_bit_adder|full_adder:inst3|half_adder:inst
+Carry <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+SW[0] => inst4.IN0
+SW[0] => inst1.IN0
+SW[0] => inst2.IN0
+SW[1] => inst4.IN1
+SW[1] => inst3.IN1
+SW[1] => inst.IN0
+Sum <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
