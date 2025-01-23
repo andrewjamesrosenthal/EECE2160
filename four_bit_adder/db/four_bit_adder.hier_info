@@ -2,7 +2,6 @@
 S0 <= full_adder:inst1.s
 B0 => full_adder:inst1.x
 A0 => full_adder:inst1.y
-Cin => full_adder:inst1.z
 S1 <= full_adder:inst.s
 B1 => full_adder:inst.x
 A1 => full_adder:inst.y

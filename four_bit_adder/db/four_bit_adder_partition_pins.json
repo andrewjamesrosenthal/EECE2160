@@ -24,10 +24,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "Cin",
-					"strict" : false
-				},
-				{
 					"name" : "B0",
 					"strict" : false
 				},

@@ -23,7 +23,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect -144 40 24 56)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A0" (rect 5 0 18 17)(font "Intel Clear" ))
+	(text "A0" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,6 +34,7 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -216 56 -144 80))
 )
 (pin
 	(input)
@@ -50,12 +51,13 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -120 176 -48 200))
 )
 (pin
 	(input)
 	(rect 24 280 192 296)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B2" (rect 5 0 18 17)(font "Intel Clear" ))
+	(text "B2" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -66,12 +68,13 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -48 296 24 320))
 )
 (pin
 	(input)
 	(rect 216 400 384 416)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B3" (rect 5 0 18 17)(font "Intel Clear" ))
+	(text "B3" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -82,12 +85,13 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 152 416 216 440))
 )
 (pin
 	(input)
 	(rect -144 24 24 40)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B0" (rect 5 0 18 17)(font "Intel Clear" ))
+	(text "B0" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -98,12 +102,13 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -216 40 -144 64))
 )
 (pin
 	(input)
 	(rect -48 176 120 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A1" (rect 5 0 18 17)(font "Intel Clear" ))
+	(text "A1" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -114,12 +119,13 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -120 192 -48 216))
 )
 (pin
 	(input)
 	(rect 24 296 192 312)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A2" (rect 5 0 18 17)(font "Intel Clear" ))
+	(text "A2" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -130,12 +136,13 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -40 312 24 336))
 )
 (pin
 	(input)
 	(rect 216 416 384 432)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A3" (rect 5 0 18 17)(font "Intel Clear" ))
+	(text "A3" (rect 5 0 17 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -146,22 +153,7 @@ refer to the applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect -144 56 24 72)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Cin" (rect 5 0 22 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 152 432 216 456))
 )
 (pin
 	(output)
@@ -233,7 +225,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 688 416 864 432)
+	(rect 688 432 864 448)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "Cout" (rect 90 0 113 12)(font "Arial" ))
 	(pt 0 8)
@@ -246,7 +238,7 @@ refer to the applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 864 432 928 456))
+	(annotation_block (location)(rect 864 448 920 472))
 )
 (symbol
 	(rect 216 136 312 232)
@@ -420,6 +412,23 @@ refer to the applicable agreement for further details.
 		(rectangle (rect 16 16 80 80))
 	)
 )
+(symbol
+	(rect -64 88 -32 120)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst6" (rect 3 21 25 38)(font "Intel Clear" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 200 200)
 	(pt 216 200)
@@ -443,10 +452,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 448 440)
 	(pt 472 440)
-)
-(connector
-	(pt 448 304)
-	(pt 448 440)
 )
 (connector
 	(pt 200 48)
@@ -505,10 +510,35 @@ refer to the applicable agreement for further details.
 	(pt 472 424)
 )
 (connector
-	(pt 568 424)
-	(pt 688 424)
+	(pt 88 64)
+	(pt 48 64)
 )
 (connector
-	(pt 24 64)
-	(pt 88 64)
+	(pt 48 64)
+	(pt 48 88)
 )
+(connector
+	(pt 48 88)
+	(pt -48 88)
+)
+(connector
+	(pt 568 424)
+	(pt 616 424)
+)
+(connector
+	(pt 448 304)
+	(pt 448 440)
+)
+(connector
+	(pt 616 424)
+	(pt 616 440)
+)
+(connector
+	(pt 616 440)
+	(pt 688 440)
+)
+(connector
+	(pt 688 440)
+	(pt 696 440)
+)
+(junction (pt 688 440))
