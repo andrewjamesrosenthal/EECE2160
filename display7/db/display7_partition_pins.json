@@ -32,6 +32,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "enb",
+					"strict" : false
+				},
+				{
 					"name" : "i1",
 					"strict" : false
 				},

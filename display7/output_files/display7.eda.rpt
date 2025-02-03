@@ -1,5 +1,5 @@
 EDA Netlist Writer report for display7
-Thu Jan 30 11:47:41 2025
+Mon Feb 03 10:52:39 2025
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Jan 30 11:47:41 2025 ;
+; EDA Netlist Writer Status ; Successful - Mon Feb 03 10:52:39 2025 ;
 ; Revision Name             ; display7                              ;
 ; Top-level Entity Name     ; display7                              ;
 ; Family                    ; Cyclone V                             ;
@@ -93,13 +93,13 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Thu Jan 30 11:47:40 2025
+    Info: Processing started: Mon Feb 03 10:52:38 2025
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/rosenthal.andr/Documents/EECE2160/display7/simulation/qsim/ display7 -c display7
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file display7.vo in folder "C:/Users/rosenthal.andr/Documents/EECE2160/display7/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4742 megabytes
-    Info: Processing ended: Thu Jan 30 11:47:41 2025
+    Info: Peak virtual memory: 4740 megabytes
+    Info: Processing ended: Mon Feb 03 10:52:39 2025
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

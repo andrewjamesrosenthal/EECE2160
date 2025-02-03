@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rosenthal.andr/Documents/EECE2160/display7_en/simulation/qsim
+vdisplay7_en
+Z1 !s110 1738601756
+!i10b 1
+!s100 5CCnN]mX^gf;2nb_2L<Ql2
+I<b:`SNElifa^WWP<]Do4U3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1738601755
+8display7_en.vo
+Fdisplay7_en.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1738601756.000000
+!s107 display7_en.vo|
+!s90 -work|work|display7_en.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdisplay7_en_vlg_vec_tst
+R1
+!i10b 1
+!s100 SNYW4_MYQJIkMZzg5?d]]3
+IMUOD:cfIc08el[3Ne6abB3
+R2
+R0
+w1738601754
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

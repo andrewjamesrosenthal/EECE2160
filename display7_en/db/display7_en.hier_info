@@ -1,0 +1,50 @@
+|display7_en
+segB <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+sw0 => display7:inst.i0
+sw1 => display7:inst.i1
+sw2 => display7:inst.i2
+sw3 => display7:inst.i3
+enb => inst9.IN0
+segC <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+segD <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+segE <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+segF <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+segG <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+segA <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display7_en|display7:inst
+segmentA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+i0 => inst3.IN0
+i0 => inst14.IN0
+i0 => inst41.IN1
+i0 => inst25.IN1
+i0 => inst26.IN1
+i0 => inst20.IN1
+i0 => inst22.IN1
+i0 => inst30.IN1
+i0 => inst31.IN1
+i0 => inst34.IN1
+i1 => inst4.IN0
+i1 => inst41.IN0
+i1 => inst18.IN1
+i1 => inst23.IN2
+i1 => inst30.IN0
+i1 => inst32.IN1
+i1 => inst35.IN1
+i2 => inst16.IN2
+i2 => inst5.IN0
+i2 => inst15.IN2
+i2 => inst25.IN0
+i2 => inst21.IN1
+i2 => inst22.IN0
+i2 => inst36.IN1
+i3 => inst6.IN0
+segmentB <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+segmentC <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+segmentE <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+segmentD <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+segmentF <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+segmentG <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+
+
