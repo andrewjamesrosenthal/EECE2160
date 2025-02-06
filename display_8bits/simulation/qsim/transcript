@@ -1,0 +1,57 @@
+# do display_8bits.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:35:44 on Feb 06,2025
+# vlog -work work display_8bits.vo 
+# -- Compiling module display_8bits
+# 
+# Top level modules:
+# 	display_8bits
+# End time: 11:35:44 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:35:44 on Feb 06,2025
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module display_8bits_vlg_vec_tst
+# ** Error: (vlog-13069) Waveform.vwf.vt(34): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(35): (vlog-2388) 'hex0' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(35): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(36): (vlog-2388) 'hex0' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(36): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(37): (vlog-2388) 'hex0' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(37): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(38): (vlog-2388) 'hex0' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(38): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(39): (vlog-2388) 'hex0' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(39): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(40): (vlog-2388) 'hex0' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(40): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error: (vlog-13069) Waveform.vwf.vt(41): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(42): (vlog-2388) 'hex1' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(42): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(43): (vlog-2388) 'hex1' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(43): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(44): (vlog-2388) 'hex1' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(44): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(45): (vlog-2388) 'hex1' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(45): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(46): (vlog-2388) 'hex1' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(46): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(47): (vlog-2388) 'hex1' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(47): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error: (vlog-13069) Waveform.vwf.vt(48): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(49): (vlog-2388) 'hex2' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(49): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(50): (vlog-2388) 'hex2' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(50): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(51): (vlog-2388) 'hex2' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(51): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(52): (vlog-2388) 'hex2' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(52): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(53): (vlog-2388) 'hex2' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(53): near "-": syntax error, unexpected '-', expecting ';'.
+# ** Error (suppressible): Waveform.vwf.vt(54): (vlog-2388) 'hex2' already declared in this scope (display_8bits_vlg_vec_tst).
+# ** Error: (vlog-13069) Waveform.vwf.vt(54): near "-": syntax error, unexpected '-', expecting ';'.
+# End time: 11:35:44 on Feb 06,2025, Elapsed time: 0:00:00
+# Errors: 39, Warnings: 0
+# ** Error: c:/intelfpga_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./display_8bits.do line 4
