@@ -1,180 +1,68 @@
 |seq_comparator
-clk => en_register_8:A.clk
+pin_name1 <= display_8bits:inst3.hex2-0
 clk => en_register_8:B.clk
+clk => en_register_8:A.clk
+pin_name43 => inst.IN0
+pin_name43 => en_register_8:A.en
+swA[0] => en_register_8:B.D[0]
 swA[0] => en_register_8:A.D[0]
+swA[1] => en_register_8:B.D[1]
 swA[1] => en_register_8:A.D[1]
+swA[2] => en_register_8:B.D[2]
 swA[2] => en_register_8:A.D[2]
+swA[3] => en_register_8:B.D[3]
 swA[3] => en_register_8:A.D[3]
+swA[4] => en_register_8:B.D[4]
 swA[4] => en_register_8:A.D[4]
+swA[5] => en_register_8:B.D[5]
 swA[5] => en_register_8:A.D[5]
+swA[6] => en_register_8:B.D[6]
 swA[6] => en_register_8:A.D[6]
+swA[7] => en_register_8:B.D[7]
 swA[7] => en_register_8:A.D[7]
-swB[0] => en_register_8:B.D[0]
-swB[1] => en_register_8:B.D[1]
-swB[2] => en_register_8:B.D[2]
-swB[3] => en_register_8:B.D[3]
-swB[4] => en_register_8:B.D[4]
-swB[5] => en_register_8:B.D[5]
-swB[6] => en_register_8:B.D[6]
-swB[7] => en_register_8:B.D[7]
-
-
-|seq_comparator|en_register_8:A
-D[0] => Q[0]~reg0.DATAIN
-D[1] => Q[1]~reg0.DATAIN
-D[2] => Q[2]~reg0.DATAIN
-D[3] => Q[3]~reg0.DATAIN
-D[4] => Q[4]~reg0.DATAIN
-D[5] => Q[5]~reg0.DATAIN
-D[6] => Q[6]~reg0.DATAIN
-D[7] => Q[7]~reg0.DATAIN
-clk => Q[0]~reg0.CLK
-clk => Q[1]~reg0.CLK
-clk => Q[2]~reg0.CLK
-clk => Q[3]~reg0.CLK
-clk => Q[4]~reg0.CLK
-clk => Q[5]~reg0.CLK
-clk => Q[6]~reg0.CLK
-clk => Q[7]~reg0.CLK
-en => Q[0]~reg0.ENA
-en => Q[1]~reg0.ENA
-en => Q[2]~reg0.ENA
-en => Q[3]~reg0.ENA
-en => Q[4]~reg0.ENA
-en => Q[5]~reg0.ENA
-en => Q[6]~reg0.ENA
-en => Q[7]~reg0.ENA
-Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|seq_comparator|en_register_8:B
-D[0] => Q[0]~reg0.DATAIN
-D[1] => Q[1]~reg0.DATAIN
-D[2] => Q[2]~reg0.DATAIN
-D[3] => Q[3]~reg0.DATAIN
-D[4] => Q[4]~reg0.DATAIN
-D[5] => Q[5]~reg0.DATAIN
-D[6] => Q[6]~reg0.DATAIN
-D[7] => Q[7]~reg0.DATAIN
-clk => Q[0]~reg0.CLK
-clk => Q[1]~reg0.CLK
-clk => Q[2]~reg0.CLK
-clk => Q[3]~reg0.CLK
-clk => Q[4]~reg0.CLK
-clk => Q[5]~reg0.CLK
-clk => Q[6]~reg0.CLK
-clk => Q[7]~reg0.CLK
-en => Q[0]~reg0.ENA
-en => Q[1]~reg0.ENA
-en => Q[2]~reg0.ENA
-en => Q[3]~reg0.ENA
-en => Q[4]~reg0.ENA
-en => Q[5]~reg0.ENA
-en => Q[6]~reg0.ENA
-en => Q[7]~reg0.ENA
-Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|seq_comparator|compare_2bit:inst2
-dataa[0] => dataa[0].IN1
-dataa[1] => dataa[1].IN1
-dataa[2] => dataa[2].IN1
-dataa[3] => dataa[3].IN1
-dataa[4] => dataa[4].IN1
-dataa[5] => dataa[5].IN1
-dataa[6] => dataa[6].IN1
-dataa[7] => dataa[7].IN1
-datab[0] => datab[0].IN1
-datab[1] => datab[1].IN1
-datab[2] => datab[2].IN1
-datab[3] => datab[3].IN1
-datab[4] => datab[4].IN1
-datab[5] => datab[5].IN1
-datab[6] => datab[6].IN1
-datab[7] => datab[7].IN1
-aeb <= lpm_compare:LPM_COMPARE_component.aeb
-agb <= lpm_compare:LPM_COMPARE_component.agb
-alb <= lpm_compare:LPM_COMPARE_component.alb
-
-
-|seq_comparator|compare_2bit:inst2|lpm_compare:LPM_COMPARE_component
-dataa[0] => cmpr_a3h:auto_generated.dataa[0]
-dataa[1] => cmpr_a3h:auto_generated.dataa[1]
-dataa[2] => cmpr_a3h:auto_generated.dataa[2]
-dataa[3] => cmpr_a3h:auto_generated.dataa[3]
-dataa[4] => cmpr_a3h:auto_generated.dataa[4]
-dataa[5] => cmpr_a3h:auto_generated.dataa[5]
-dataa[6] => cmpr_a3h:auto_generated.dataa[6]
-dataa[7] => cmpr_a3h:auto_generated.dataa[7]
-datab[0] => cmpr_a3h:auto_generated.datab[0]
-datab[1] => cmpr_a3h:auto_generated.datab[1]
-datab[2] => cmpr_a3h:auto_generated.datab[2]
-datab[3] => cmpr_a3h:auto_generated.datab[3]
-datab[4] => cmpr_a3h:auto_generated.datab[4]
-datab[5] => cmpr_a3h:auto_generated.datab[5]
-datab[6] => cmpr_a3h:auto_generated.datab[6]
-datab[7] => cmpr_a3h:auto_generated.datab[7]
-clock => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-clken => ~NO_FANOUT~
-alb <= cmpr_a3h:auto_generated.alb
-aeb <= cmpr_a3h:auto_generated.aeb
-agb <= cmpr_a3h:auto_generated.agb
-aleb <= <GND>
-aneb <= <GND>
-ageb <= <GND>
-
-
-|seq_comparator|compare_2bit:inst2|lpm_compare:LPM_COMPARE_component|cmpr_a3h:auto_generated
-aeb <= aeb_int.DB_MAX_OUTPUT_PORT_TYPE
-agb <= agb.DB_MAX_OUTPUT_PORT_TYPE
-alb <= alb_int.DB_MAX_OUTPUT_PORT_TYPE
-dataa[0] => _.IN0
-dataa[0] => op_1.IN15
-dataa[1] => _.IN0
-dataa[1] => op_1.IN13
-dataa[2] => _.IN0
-dataa[2] => op_1.IN11
-dataa[3] => _.IN0
-dataa[3] => op_1.IN9
-dataa[4] => _.IN0
-dataa[4] => op_1.IN7
-dataa[5] => _.IN0
-dataa[5] => op_1.IN5
-dataa[6] => _.IN0
-dataa[6] => op_1.IN3
-dataa[7] => _.IN0
-dataa[7] => op_1.IN1
-datab[0] => _.IN1
-datab[0] => op_1.IN16
-datab[1] => _.IN1
-datab[1] => op_1.IN14
-datab[2] => _.IN1
-datab[2] => op_1.IN12
-datab[3] => _.IN1
-datab[3] => op_1.IN10
-datab[4] => _.IN1
-datab[4] => op_1.IN8
-datab[5] => _.IN1
-datab[5] => op_1.IN6
-datab[6] => _.IN1
-datab[6] => op_1.IN4
-datab[7] => _.IN1
-datab[7] => op_1.IN2
+pin_name2 <= display_8bits:inst3.hex2-1
+pin_name3 <= display_8bits:inst3.hex2-2
+pin_name4 <= display_8bits:inst3.hex2-3
+pin_name5 <= display_8bits:inst3.hex2-4
+pin_name6 <= display_8bits:inst3.hex2-5
+pin_name7 <= display_8bits:inst3.hex2-6
+pin_name8 <= display_8bits:inst3.hex1-0
+pin_name9 <= display_8bits:inst3.hex1-1
+pin_name10 <= display_8bits:inst3.hex1-2
+pin_name11 <= display_8bits:inst3.hex1-3
+pin_name12 <= display_8bits:inst3.hex1-4
+pin_name13 <= display_8bits:inst3.hex1-5
+pin_name14 <= display_8bits:inst3.hex1-6
+pin_name15 <= display_8bits:inst3.hex0-0
+pin_name16 <= display_8bits:inst3.hex0-1
+pin_name17 <= display_8bits:inst3.hex0-2
+pin_name18 <= display_8bits:inst3.hex0-3
+pin_name19 <= display_8bits:inst3.hex0-4
+pin_name20 <= display_8bits:inst3.hex0-5
+pin_name21 <= display_8bits:inst3.hex0-6
+pin_name22 <= display_8bits:inst4.hex2-0
+pin_name23 <= display_8bits:inst4.hex2-1
+pin_name24 <= display_8bits:inst4.hex2-2
+pin_name25 <= display_8bits:inst4.hex2-3
+pin_name26 <= display_8bits:inst4.hex2-4
+pin_name27 <= display_8bits:inst4.hex2-5
+pin_name28 <= display_8bits:inst4.hex2-6
+pin_name29 <= display_8bits:inst4.hex1-0
+pin_name30 <= display_8bits:inst4.hex1-1
+pin_name31 <= display_8bits:inst4.hex1-2
+pin_name32 <= display_8bits:inst4.hex1-3
+pin_name33 <= display_8bits:inst4.hex1-4
+pin_name34 <= display_8bits:inst4.hex1-5
+pin_name35 <= display_8bits:inst4.hex1-6
+pin_name36 <= display_8bits:inst4.hex0-0
+pin_name37 <= display_8bits:inst4.hex0-1
+pin_name38 <= display_8bits:inst4.hex0-2
+pin_name39 <= display_8bits:inst4.hex0-3
+pin_name40 <= display_8bits:inst4.hex0-4
+pin_name41 <= display_8bits:inst4.hex0-5
+pin_name42 <= display_8bits:inst4.hex0-6
+comparator[0] <= c1[0].DB_MAX_OUTPUT_PORT_TYPE
+comparator[1] <= c1[1].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |seq_comparator|display_8bits:inst3
@@ -1354,6 +1242,41 @@ result[6] <= <GND>
 result[7] <= <GND>
 
 
+|seq_comparator|en_register_8:B
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+en => Q[0]~reg0.ENA
+en => Q[1]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[4]~reg0.ENA
+en => Q[5]~reg0.ENA
+en => Q[6]~reg0.ENA
+en => Q[7]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |seq_comparator|display_8bits:inst4
 hex0-0 <= display7:inst6.segmentA
 sw[0] => div8u:inst.numer[0]
@@ -2529,5 +2452,128 @@ result[4] <= <GND>
 result[5] <= <GND>
 result[6] <= <GND>
 result[7] <= <GND>
+
+
+|seq_comparator|en_register_8:A
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+D[6] => Q[6]~reg0.DATAIN
+D[7] => Q[7]~reg0.DATAIN
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+clk => Q[4]~reg0.CLK
+clk => Q[5]~reg0.CLK
+clk => Q[6]~reg0.CLK
+clk => Q[7]~reg0.CLK
+en => Q[0]~reg0.ENA
+en => Q[1]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[4]~reg0.ENA
+en => Q[5]~reg0.ENA
+en => Q[6]~reg0.ENA
+en => Q[7]~reg0.ENA
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|seq_comparator|compare_2bit:inst2
+dataa[0] => dataa[0].IN1
+dataa[1] => dataa[1].IN1
+dataa[2] => dataa[2].IN1
+dataa[3] => dataa[3].IN1
+dataa[4] => dataa[4].IN1
+dataa[5] => dataa[5].IN1
+dataa[6] => dataa[6].IN1
+dataa[7] => dataa[7].IN1
+datab[0] => datab[0].IN1
+datab[1] => datab[1].IN1
+datab[2] => datab[2].IN1
+datab[3] => datab[3].IN1
+datab[4] => datab[4].IN1
+datab[5] => datab[5].IN1
+datab[6] => datab[6].IN1
+datab[7] => datab[7].IN1
+aeb <= lpm_compare:LPM_COMPARE_component.aeb
+agb <= lpm_compare:LPM_COMPARE_component.agb
+alb <= lpm_compare:LPM_COMPARE_component.alb
+
+
+|seq_comparator|compare_2bit:inst2|lpm_compare:LPM_COMPARE_component
+dataa[0] => cmpr_a3h:auto_generated.dataa[0]
+dataa[1] => cmpr_a3h:auto_generated.dataa[1]
+dataa[2] => cmpr_a3h:auto_generated.dataa[2]
+dataa[3] => cmpr_a3h:auto_generated.dataa[3]
+dataa[4] => cmpr_a3h:auto_generated.dataa[4]
+dataa[5] => cmpr_a3h:auto_generated.dataa[5]
+dataa[6] => cmpr_a3h:auto_generated.dataa[6]
+dataa[7] => cmpr_a3h:auto_generated.dataa[7]
+datab[0] => cmpr_a3h:auto_generated.datab[0]
+datab[1] => cmpr_a3h:auto_generated.datab[1]
+datab[2] => cmpr_a3h:auto_generated.datab[2]
+datab[3] => cmpr_a3h:auto_generated.datab[3]
+datab[4] => cmpr_a3h:auto_generated.datab[4]
+datab[5] => cmpr_a3h:auto_generated.datab[5]
+datab[6] => cmpr_a3h:auto_generated.datab[6]
+datab[7] => cmpr_a3h:auto_generated.datab[7]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+alb <= cmpr_a3h:auto_generated.alb
+aeb <= cmpr_a3h:auto_generated.aeb
+agb <= cmpr_a3h:auto_generated.agb
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|seq_comparator|compare_2bit:inst2|lpm_compare:LPM_COMPARE_component|cmpr_a3h:auto_generated
+aeb <= aeb_int.DB_MAX_OUTPUT_PORT_TYPE
+agb <= agb.DB_MAX_OUTPUT_PORT_TYPE
+alb <= alb_int.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => _.IN0
+dataa[0] => op_1.IN15
+dataa[1] => _.IN0
+dataa[1] => op_1.IN13
+dataa[2] => _.IN0
+dataa[2] => op_1.IN11
+dataa[3] => _.IN0
+dataa[3] => op_1.IN9
+dataa[4] => _.IN0
+dataa[4] => op_1.IN7
+dataa[5] => _.IN0
+dataa[5] => op_1.IN5
+dataa[6] => _.IN0
+dataa[6] => op_1.IN3
+dataa[7] => _.IN0
+dataa[7] => op_1.IN1
+datab[0] => _.IN1
+datab[0] => op_1.IN16
+datab[1] => _.IN1
+datab[1] => op_1.IN14
+datab[2] => _.IN1
+datab[2] => op_1.IN12
+datab[3] => _.IN1
+datab[3] => op_1.IN10
+datab[4] => _.IN1
+datab[4] => op_1.IN8
+datab[5] => _.IN1
+datab[5] => op_1.IN6
+datab[6] => _.IN1
+datab[6] => op_1.IN4
+datab[7] => _.IN1
+datab[7] => op_1.IN2
 
 

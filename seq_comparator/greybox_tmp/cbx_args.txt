@@ -5,5 +5,4 @@ DEVICE_FAMILY="Cyclone V"
 dataa
 datab
 aeb
-agb
-alb
+aneb
