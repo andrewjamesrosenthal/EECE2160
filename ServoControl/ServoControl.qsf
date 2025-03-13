@@ -47,3 +47,24 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
 set_global_assignment -name BDF_FILE ServoControl.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_Y15 -to pwm_signal
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pos[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rst
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pwm_signal
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pos[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pos[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pos[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to pos
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to change
+set_location_assignment PIN_Y24 -to pos[0]
+set_location_assignment PIN_W24 -to pos[1]
+set_location_assignment PIN_W21 -to pos[2]
+set_location_assignment PIN_W20 -to pos[3]
+set_location_assignment PIN_AH17 -to change
+set_location_assignment PIN_AH16 -to rst
+set_location_assignment PIN_V11 -to clk
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
