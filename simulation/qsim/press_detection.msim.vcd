@@ -1,0 +1,158 @@
+$comment
+	File created using the following command:
+		vcd file press_detection.msim.vcd -direction
+$end
+$date
+	Thu Mar 20 10:34:46 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module press_detection_vlg_vec_tst $end
+$var reg 1 ! btn $end
+$var reg 1 " clk $end
+$var reg 1 # rst_n $end
+$var wire 1 $ Press $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 , clk~input_o $end
+$var wire 1 - btn~input_o $end
+$var wire 1 . inst~feeder_combout $end
+$var wire 1 / rst_n~input_o $end
+$var wire 1 0 inst~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+1#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+1,
+1-
+1.
+1/
+00
+$end
+#40000
+0"
+0,
+#80000
+1"
+1,
+10
+1$
+#100000
+0#
+0/
+00
+0$
+#140000
+0"
+0,
+#160000
+0!
+0-
+0.
+#180000
+1#
+1"
+1/
+1,
+#280000
+0"
+0,
+#300000
+0#
+0/
+#340000
+1"
+1,
+#380000
+1!
+1-
+1.
+#420000
+1#
+0"
+1/
+0,
+#500000
+1"
+1,
+10
+1$
+#520000
+0!
+0-
+0.
+#540000
+0#
+0/
+00
+0$
+#600000
+0"
+0,
+#660000
+1!
+1-
+1.
+#680000
+1#
+1/
+#720000
+1"
+1,
+10
+1$
+#740000
+0#
+0/
+00
+0$
+#780000
+0!
+0-
+0.
+#820000
+1#
+1/
+#840000
+0"
+0,
+#880000
+1!
+1"
+1-
+1,
+1.
+#920000
+0"
+0,
+#940000
+0#
+0!
+0/
+0-
+0.
+#1000000

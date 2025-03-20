@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/rosenthal.andr/Documents/EECE2160/press_detection.bdf
+source_file = 1, C:/Users/rosenthal.andr/Documents/EECE2160/db/press_detection.cbx.xml
+design_name = press_detection
+instance = comp, \Press~output , Press~output, press_detection, 1
+instance = comp, \clk~input , clk~input, press_detection, 1
+instance = comp, \btn~input , btn~input, press_detection, 1
+instance = comp, \inst~feeder , inst~feeder, press_detection, 1
+instance = comp, \rst_n~input , rst_n~input, press_detection, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, press_detection, 1

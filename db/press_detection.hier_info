@@ -1,0 +1,7 @@
+|press_detection
+Press <= inst.DB_MAX_OUTPUT_PORT_TYPE
+rst_n => inst.ACLR
+clk => inst.CLK
+btn => inst.DATAIN
+
+
