@@ -1,0 +1,234 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "03/27/2025 10:44:06"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          dc_update
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module dc_update_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [31:0] CUR_DC;
+reg dir;
+// wires                                               
+wire [31:0] NEXT_DC;
+
+// assign statements (if any)                          
+dc_update i1 (
+// port map - connection between master ports and signals/registers   
+	.CUR_DC(CUR_DC),
+	.dir(dir),
+	.NEXT_DC(NEXT_DC)
+);
+initial 
+begin 
+#200000 $finish;
+end 
+// CUR_DC[ 31 ]
+initial
+begin
+	CUR_DC[31] = 1'b0;
+end 
+// CUR_DC[ 30 ]
+initial
+begin
+	CUR_DC[30] = 1'b0;
+end 
+// CUR_DC[ 29 ]
+initial
+begin
+	CUR_DC[29] = 1'b0;
+end 
+// CUR_DC[ 28 ]
+initial
+begin
+	CUR_DC[28] = 1'b0;
+end 
+// CUR_DC[ 27 ]
+initial
+begin
+	CUR_DC[27] = 1'b0;
+end 
+// CUR_DC[ 26 ]
+initial
+begin
+	CUR_DC[26] = 1'b0;
+end 
+// CUR_DC[ 25 ]
+initial
+begin
+	CUR_DC[25] = 1'b0;
+end 
+// CUR_DC[ 24 ]
+initial
+begin
+	CUR_DC[24] = 1'b0;
+end 
+// CUR_DC[ 23 ]
+initial
+begin
+	CUR_DC[23] = 1'b0;
+end 
+// CUR_DC[ 22 ]
+initial
+begin
+	CUR_DC[22] = 1'b0;
+end 
+// CUR_DC[ 21 ]
+initial
+begin
+	CUR_DC[21] = 1'b0;
+end 
+// CUR_DC[ 20 ]
+initial
+begin
+	CUR_DC[20] = 1'b0;
+end 
+// CUR_DC[ 19 ]
+initial
+begin
+	CUR_DC[19] = 1'b0;
+end 
+// CUR_DC[ 18 ]
+initial
+begin
+	CUR_DC[18] = 1'b0;
+end 
+// CUR_DC[ 17 ]
+initial
+begin
+	CUR_DC[17] = 1'b0;
+end 
+// CUR_DC[ 16 ]
+initial
+begin
+	CUR_DC[16] = 1'b0;
+	CUR_DC[16] = #80000 1'b1;
+	CUR_DC[16] = #80000 1'b0;
+end 
+// CUR_DC[ 15 ]
+initial
+begin
+	CUR_DC[15] = 1'b0;
+	CUR_DC[15] = #40000 1'b1;
+	CUR_DC[15] = #40000 1'b0;
+	CUR_DC[15] = #40000 1'b1;
+	CUR_DC[15] = #40000 1'b0;
+end 
+// CUR_DC[ 14 ]
+initial
+begin
+	CUR_DC[14] = 1'b0;
+	CUR_DC[14] = #40000 1'b1;
+	CUR_DC[14] = #120000 1'b0;
+end 
+// CUR_DC[ 13 ]
+initial
+begin
+	CUR_DC[13] = 1'b0;
+	CUR_DC[13] = #40000 1'b1;
+	CUR_DC[13] = #120000 1'b0;
+end 
+// CUR_DC[ 12 ]
+initial
+begin
+	CUR_DC[12] = 1'b0;
+end 
+// CUR_DC[ 11 ]
+initial
+begin
+	CUR_DC[11] = 1'b0;
+end 
+// CUR_DC[ 10 ]
+initial
+begin
+	CUR_DC[10] = 1'b0;
+end 
+// CUR_DC[ 9 ]
+initial
+begin
+	CUR_DC[9] = 1'b0;
+end 
+// CUR_DC[ 8 ]
+initial
+begin
+	CUR_DC[8] = 1'b0;
+end 
+// CUR_DC[ 7 ]
+initial
+begin
+	CUR_DC[7] = 1'b0;
+end 
+// CUR_DC[ 6 ]
+initial
+begin
+	CUR_DC[6] = 1'b0;
+end 
+// CUR_DC[ 5 ]
+initial
+begin
+	CUR_DC[5] = 1'b0;
+end 
+// CUR_DC[ 4 ]
+initial
+begin
+	CUR_DC[4] = 1'b0;
+end 
+// CUR_DC[ 3 ]
+initial
+begin
+	CUR_DC[3] = 1'b0;
+end 
+// CUR_DC[ 2 ]
+initial
+begin
+	CUR_DC[2] = 1'b0;
+end 
+// CUR_DC[ 1 ]
+initial
+begin
+	CUR_DC[1] = 1'b0;
+end 
+// CUR_DC[ 0 ]
+initial
+begin
+	CUR_DC[0] = 1'b0;
+end 
+
+// dir
+initial
+begin
+	dir = 1'b0;
+	dir = #20000 1'b1;
+	dir = #20000 1'b0;
+	dir = #20000 1'b1;
+	dir = #20000 1'b0;
+	dir = #20000 1'b1;
+	dir = #20000 1'b0;
+	dir = #20000 1'b1;
+	dir = #20000 1'b0;
+	dir = #20000 1'b1;
+end 
+endmodule
+

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rosenthal.andr/Documents/EECE2160/dc_update/simulation/qsim
+vdc_update
+Z1 !s110 1743086649
+!i10b 1
+!s100 F3>cZa8W;Ah5e5Un@SWS<1
+I[4[e4ZD^gNQdaU51F>mTj3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1743086647
+8dc_update.vo
+Fdc_update.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1743086649.000000
+!s107 dc_update.vo|
+!s90 -work|work|dc_update.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdc_update_vlg_vec_tst
+R1
+!i10b 1
+!s100 `z4OaAiMo`6e@<A2878Y^2
+Im1knFZ<eg_K;dG^[Mh@Yn0
+R2
+R0
+w1743086646
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
